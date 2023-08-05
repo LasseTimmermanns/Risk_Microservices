@@ -1,0 +1,34 @@
+[
+    {
+        "_id": "magenta",
+        "hex": "#E56CC9"
+    },
+    {
+        "_id": "blue",
+        "hex": "#648FE2"
+    },
+    {
+        "_id": "purple",
+        "hex": "#A570C7"
+    },
+    {
+        "_id": "green",
+        "hex": "#27F681"
+    },
+    {
+        "_id": "orange",
+        "hex": "#F8A881"
+    },
+    {
+        "_id": "red",
+        "hex": "#E97276"
+    },
+    {
+        "_id": "yellow",
+        "hex": "#FDF581"
+    },
+    {
+        "_id": "aqua",
+        "hex": "#A5F3E9"
+    }
+]

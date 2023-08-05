@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "64b7ac48e32003af9c4bae51"
+  },
+  "name": "magenta",
+  "hex": "#C623A0",
+  "text_color": "#FFF"
+},
+{
+  "_id": {
+    "$oid": "64b7ac48e32003af9c4bae52"
+  },
+  "name": "blue",
+  "hex": "#2357BC",
+  "text_color": "#FFF"
+},
+{
+  "_id": {
+    "$oid": "64b7ac48e32003af9c4bae53"
+  },
+  "name": "purple",
+  "hex": "#733B97",
+  "text_color": "#FFF"
+},
+{
+  "_id": {
+    "$oid": "64b7ac48e32003af9c4bae54"
+  },
+  "name": "green",
+  "hex": "#07B151",
+  "text_color": "#FFF"
+},
+{
+  "_id": {
+    "$oid": "64b7ac48e32003af9c4bae55"
+  },
+  "name": "orange",
+  "hex": "#F36621",
+  "text_color": "#FFF"
+},
+{
+  "_id": {
+    "$oid": "64b7ac48e32003af9c4bae56"
+  },
+  "name": "red",
+  "hex": "#D52127",
+  "text_color": "#FFF"
+},
+{
+  "_id": {
+    "$oid": "64b7ac48e32003af9c4bae57"
+  },
+  "name": "yellow",
+  "hex": "#E2D303",
+  "text_color": "#FFF"
+},
+{
+  "_id": {
+    "$oid": "64b7ac48e32003af9c4bae58"
+  },
+  "name": "aqua",
+  "hex": "#1DE2C7",
+  "text_color": "#FFF"
+}]

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <svg stroke="black" fill="silver">
+        <g filter="url(#outline-red)">
+            <path d="M10 10v100h200Z" id="p"/>
+            <path d="M100 100v100h200Z" id="p"/>
+            <path d="M10 100v100h200Z" id="p"/>
+        </g>
+      
+      <filter id="outline-red">
+        <feMorphology in="SourceAlpha" result="expanded" operator="dilate" radius="3"/>
+        <feFlood flood-color="red" result="rd" />
+        <feComposite in ="rd" in2="expanded" operator="in" />
+        <feComposite in="SourceGraphic"/>
+      </filter>
+          
+      </svg>
+</body>
+</html>

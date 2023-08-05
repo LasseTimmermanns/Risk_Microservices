@@ -1,0 +1,18 @@
+[
+    {"schleswig-holstein": ["mecklemburg-vorpommern", "hamburg", "niedersachsen"]},
+    {"mecklemburg-vorpommern": ["schleswig-holstein", "niedersachsen", "brandenburg"]},
+    {"hamburg": ["schleswig-holstein", "niedersachsen"]},
+    {"niedersachsen": ["schleswig-holstein", "mecklemburg-vorpommern", "hamburg", "nordrhein-westfalen", "hessen", "thueringen", "sachsen-anhalt", "brandenburg", "bremen"]},
+    {"bremen": ["niedersachsen"]},
+    {"brandenburg": ["mecklemburg-vorpommern", "niedersachsen", "berlin", "sachsen-anhalt", "sachsen"]},
+    {"sachsen-anhalt" : ["niedersachsen", "brandenburg", "sachsen", "thueringen"]},
+    {"berlin": ["brandenburg"]},
+    {"nordrhein-westfalen": ["niedersachsen", "hessen", "rheinland-pfalz"]},
+    {"hessen": ["nordrhein-westfalen", "niedersachsen", "thueringen", "baden-wuerttemberg", "bayern", "rheinland-pfalz"]},
+    {"rheinland-pfalz": ["nordrhein-westfalen", "hessen", "baden-wuerttemberg", "saarland"]},
+    {"saarland": ["rheinland-pfalz"]},
+    {"sachsen": ["sachsen-anhalt", "brandenburg", "thueringen", "bayern"]},
+    {"thueringen": ["hessen", "niedersachsen", "bayern", "sachsen", "sachsen-anhalt"]},
+    {"baden-wuerttemberg": ["hessen", "bayern", "rheinland-pfalz"]},
+    {"bayern": ["baden-wuerttemberg", "hessen", "thueringen", "sachsen"]}
+]
